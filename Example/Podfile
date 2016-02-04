@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'JalapenoTestServer_Example', :exclusive => true do
+  pod 'JalapenoTestServer', :path => '../'
+end
+
+target 'JalapenoTestServer_Tests', :exclusive => true do
+  pod 'JalapenoTestServer', :path => '../'
+
+  
+end
