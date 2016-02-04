@@ -1,40 +1,19 @@
-#
-# Be sure to run `pod lib lint JalapenoTestServer.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
 
 Pod::Spec.new do |s|
   s.name             = "JalapenoTestServer"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of JalapenoTestServer."
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
-                       DESC
-
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/JalapenoTestServer"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.module_name      = "JalapenoTestServer"
+  s.version          = "0.1.7"
+  s.summary          = "Some kind of description." 
+  s.description      = "A meaningless description"
+  s.homepage         = "https://github.com/ExoticObjects/JalapenoTestServer"
   s.license          = 'MIT'
   s.author           = { "Exotic Objects" => "jim@exoticobjects.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/JalapenoTestServer.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.platform     = :ios, '8.0'
+  s.source           = { :git => "https://github.com/ExoticObjects/JalapenoTestServer.git" }
+  s.platform     = :ios, '9.0'
   s.requires_arc = true
-
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
     'JalapenoTestServer' => ['Pod/Assets/*.png']
   }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Swifter', '1.0.6'
 end
