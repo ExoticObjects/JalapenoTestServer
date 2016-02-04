@@ -1,0 +1,14 @@
+PODS:
+  - JalapenoTestServer (0.1.0)
+
+DEPENDENCIES:
+  - JalapenoTestServer (from `../`)
+
+EXTERNAL SOURCES:
+  JalapenoTestServer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JalapenoTestServer: fb689a7fe56bf39781a5371a7fe0cf33c7f2d42b
+
+COCOAPODS: 0.39.0

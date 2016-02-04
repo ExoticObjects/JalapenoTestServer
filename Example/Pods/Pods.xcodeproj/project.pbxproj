@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		277CA96D153A0A9918BC46EF84AA45A4 /* JalapenoTestServer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FC775AB7D66125BAAE7BFE90DD8B6509 /* JalapenoTestServer.bundle */; };
+		2CB9ABFFD26ABC1A9B27E471430A9B4F /* JalapenoTestServer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B05CDAC13FE92AD91B933D1A206E24DF /* JalapenoTestServer-dummy.m */; };
+		42FC13A93D73B3CF1D780A6A15CDB002 /* Pods-JalapenoTestServer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DA6E1B1687C60E2D082970D3628913D /* Pods-JalapenoTestServer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56E3704DE043546913166BA55D4F9CF4 /* Pods-JalapenoTestServer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C31041A4A315DD5DB5E43CB0D9D00C3 /* Pods-JalapenoTestServer_Example-dummy.m */; };
+		73E8BE93823DC8A06C4B7B4628093D5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		74633568B6A8A4C8A9934B6FB44F8EC8 /* Pods-JalapenoTestServer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8ABCB7F8AA902E2C4B23A246CA2083 /* Pods-JalapenoTestServer_Tests-dummy.m */; };
+		78E3B329E94A86092F8A1B6948658B0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		7C1F9FA2997995B9A79C2C031FA1625A /* Pods-JalapenoTestServer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8844ACF87F4A9680135BDB007540DA3C /* Pods-JalapenoTestServer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		962D7FE587A4EB642EE0E45594A3B13C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		C893BC628611C0017EABEE242C88367D /* JalapenoTestServer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E9FEC1AB6C67F8070318EBBC248CE47 /* JalapenoTestServer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E05550321C63D8720080FBEC /* PrivateUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E055502E1C63D8720080FBEC /* PrivateUtils.h */; };
+		E05550331C63D8720080FBEC /* PrivateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E055502F1C63D8720080FBEC /* PrivateUtils.m */; };
+		E05550341C63D8720080FBEC /* UITestServer.h in Headers */ = {isa = PBXBuildFile; fileRef = E05550301C63D8720080FBEC /* UITestServer.h */; };
+		E05550351C63D8720080FBEC /* UITestServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05550311C63D8720080FBEC /* UITestServer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C54B0E1EF21A329EE44B39367F7B9ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D756C430D06B57C79202479F4BA2C14;
+			remoteInfo = JalapenoTestServer;
+		};
+		4D5772495C81FAD537DCB3DF7784F1E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D756C430D06B57C79202479F4BA2C14;
+			remoteInfo = JalapenoTestServer;
+		};
+		E4E4683909C761F170BF7A4711C0AA23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A711C2F47A1490BA5F799061AF715C0;
+			remoteInfo = "JalapenoTestServer-JalapenoTestServer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0321362C48E6F42531D6E5BE36B0C112 /* Pods-JalapenoTestServer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JalapenoTestServer_Tests-resources.sh"; sourceTree = "<group>"; };
+		0E9FEC1AB6C67F8070318EBBC248CE47 /* JalapenoTestServer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JalapenoTestServer-umbrella.h"; sourceTree = "<group>"; };
+		1DA6E1B1687C60E2D082970D3628913D /* Pods-JalapenoTestServer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JalapenoTestServer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1E8ABCB7F8AA902E2C4B23A246CA2083 /* Pods-JalapenoTestServer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JalapenoTestServer_Tests-dummy.m"; sourceTree = "<group>"; };
+		351CC3614FEAB9B002A6907982A12835 /* Pods-JalapenoTestServer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JalapenoTestServer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4256C66D97FE2CA30166991E5A0ECEA9 /* Pods-JalapenoTestServer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JalapenoTestServer_Example-resources.sh"; sourceTree = "<group>"; };
+		4AE42C54C7C4E9868E21B20FACC4221F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C6EE51442BBD83895D9A3F3FAD76101 /* Pods-JalapenoTestServer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JalapenoTestServer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		52037A064C091783DE7CA7AC2C7C5001 /* Pods-JalapenoTestServer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JalapenoTestServer_Tests.modulemap"; sourceTree = "<group>"; };
+		5249AAA9E21E4CEE4A24747BA6149558 /* JalapenoTestServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JalapenoTestServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9960E968C3081E7D8C6BCDCA938455 /* Pods-JalapenoTestServer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JalapenoTestServer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6028C8B986142F2F52BBC0F6506E00B6 /* Pods-JalapenoTestServer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JalapenoTestServer_Example.modulemap"; sourceTree = "<group>"; };
+		62BDFE65AC67D55977869DDD8BB8135B /* Pods-JalapenoTestServer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JalapenoTestServer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		67ED999E68B3D540E7B7B3C9FF5B5617 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A65ECA4207BEA84D2E8452028D6C5A8 /* Pods-JalapenoTestServer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JalapenoTestServer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7CB97055FBA2D97A1BF1F915E120A6CD /* Pods-JalapenoTestServer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JalapenoTestServer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		85A066B7F144DC71F49AA7F02689B7FA /* Pods_JalapenoTestServer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JalapenoTestServer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8844ACF87F4A9680135BDB007540DA3C /* Pods-JalapenoTestServer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JalapenoTestServer_Example-umbrella.h"; sourceTree = "<group>"; };
+		8C31041A4A315DD5DB5E43CB0D9D00C3 /* Pods-JalapenoTestServer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JalapenoTestServer_Example-dummy.m"; sourceTree = "<group>"; };
+		8F9C056A667E696ACDF56391E2564394 /* JalapenoTestServer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JalapenoTestServer.modulemap; sourceTree = "<group>"; };
+		99586AA1CBA2F9DCFDF962AE91051786 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C94F27AEA45992FD7DBEC3DF31F70FE /* Pods-JalapenoTestServer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JalapenoTestServer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B05CDAC13FE92AD91B933D1A206E24DF /* JalapenoTestServer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JalapenoTestServer-dummy.m"; sourceTree = "<group>"; };
+		B1F83D116FC9ECD0052CB9D1A9743B6E /* JalapenoTestServer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JalapenoTestServer-prefix.pch"; sourceTree = "<group>"; };
+		B2DA4E439A85003788336A83A9DD547D /* JalapenoTestServer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JalapenoTestServer.xcconfig; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CC5DC6F36A71B60A749F588E456E6162 /* Pods-JalapenoTestServer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JalapenoTestServer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D466DC4EA8C70ABA77BF3CB4F1CCBBF2 /* Pods-JalapenoTestServer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JalapenoTestServer_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E055502E1C63D8720080FBEC /* PrivateUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivateUtils.h; sourceTree = "<group>"; };
+		E055502F1C63D8720080FBEC /* PrivateUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivateUtils.m; sourceTree = "<group>"; };
+		E05550301C63D8720080FBEC /* UITestServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITestServer.h; sourceTree = "<group>"; };
+		E05550311C63D8720080FBEC /* UITestServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITestServer.swift; sourceTree = "<group>"; };
+		EA256CAA24B4559B4DC884B422BFA63B /* Pods-JalapenoTestServer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JalapenoTestServer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F0B5EE023DD6838AA6585DF9384FABC1 /* Pods_JalapenoTestServer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JalapenoTestServer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC775AB7D66125BAAE7BFE90DD8B6509 /* JalapenoTestServer.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JalapenoTestServer.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		502B1284CBE7CB4801066C9C579412ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73E8BE93823DC8A06C4B7B4628093D5B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BC287C7C32465A9F4FF00ED25D46D16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962D7FE587A4EB642EE0E45594A3B13C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1207306CA169714650EA0911744E8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78E3B329E94A86092F8A1B6948658B0D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E745AC90B2F92DAF105B1CF9E72BAB30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D741B00ED99356D067A997D52374787 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E055502E1C63D8720080FBEC /* PrivateUtils.h */,
+				E055502F1C63D8720080FBEC /* PrivateUtils.m */,
+				E05550301C63D8720080FBEC /* UITestServer.h */,
+				E05550311C63D8720080FBEC /* UITestServer.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		450C63AF1FB7DAEFF899F662D6C19C02 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8EEF3FB007264B3707D6EA9CDB73602A /* JalapenoTestServer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		759615DB69443986AEB32E4BF5B3F392 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				99586AA1CBA2F9DCFDF962AE91051786 /* Info.plist */,
+				8F9C056A667E696ACDF56391E2564394 /* JalapenoTestServer.modulemap */,
+				B2DA4E439A85003788336A83A9DD547D /* JalapenoTestServer.xcconfig */,
+				B05CDAC13FE92AD91B933D1A206E24DF /* JalapenoTestServer-dummy.m */,
+				B1F83D116FC9ECD0052CB9D1A9743B6E /* JalapenoTestServer-prefix.pch */,
+				0E9FEC1AB6C67F8070318EBBC248CE47 /* JalapenoTestServer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JalapenoTestServer";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				450C63AF1FB7DAEFF899F662D6C19C02 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				93CD804992DDBA809A381D8998C835DC /* Products */,
+				C23D0B7DE3AE3139488F97FE6FEB342D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E13566A44A33A4C2D7198C0605AD806 /* Pods-JalapenoTestServer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4AE42C54C7C4E9868E21B20FACC4221F /* Info.plist */,
+				6028C8B986142F2F52BBC0F6506E00B6 /* Pods-JalapenoTestServer_Example.modulemap */,
+				5A9960E968C3081E7D8C6BCDCA938455 /* Pods-JalapenoTestServer_Example-acknowledgements.markdown */,
+				7A65ECA4207BEA84D2E8452028D6C5A8 /* Pods-JalapenoTestServer_Example-acknowledgements.plist */,
+				8C31041A4A315DD5DB5E43CB0D9D00C3 /* Pods-JalapenoTestServer_Example-dummy.m */,
+				EA256CAA24B4559B4DC884B422BFA63B /* Pods-JalapenoTestServer_Example-frameworks.sh */,
+				4256C66D97FE2CA30166991E5A0ECEA9 /* Pods-JalapenoTestServer_Example-resources.sh */,
+				8844ACF87F4A9680135BDB007540DA3C /* Pods-JalapenoTestServer_Example-umbrella.h */,
+				351CC3614FEAB9B002A6907982A12835 /* Pods-JalapenoTestServer_Example.debug.xcconfig */,
+				CC5DC6F36A71B60A749F588E456E6162 /* Pods-JalapenoTestServer_Example.release.xcconfig */,
+			);
+			name = "Pods-JalapenoTestServer_Example";
+			path = "Target Support Files/Pods-JalapenoTestServer_Example";
+			sourceTree = "<group>";
+		};
+		8EEF3FB007264B3707D6EA9CDB73602A /* JalapenoTestServer */ = {
+			isa = PBXGroup;
+			children = (
+				BF5DEC7B11B52D13699B12F7CDAC4432 /* Pod */,
+				759615DB69443986AEB32E4BF5B3F392 /* Support Files */,
+			);
+			name = JalapenoTestServer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		93CD804992DDBA809A381D8998C835DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC775AB7D66125BAAE7BFE90DD8B6509 /* JalapenoTestServer.bundle */,
+				5249AAA9E21E4CEE4A24747BA6149558 /* JalapenoTestServer.framework */,
+				F0B5EE023DD6838AA6585DF9384FABC1 /* Pods_JalapenoTestServer_Example.framework */,
+				85A066B7F144DC71F49AA7F02689B7FA /* Pods_JalapenoTestServer_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DF6EC728D8F9B1B8954678785C7D6AD /* Pods-JalapenoTestServer_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				67ED999E68B3D540E7B7B3C9FF5B5617 /* Info.plist */,
+				52037A064C091783DE7CA7AC2C7C5001 /* Pods-JalapenoTestServer_Tests.modulemap */,
+				4C6EE51442BBD83895D9A3F3FAD76101 /* Pods-JalapenoTestServer_Tests-acknowledgements.markdown */,
+				7CB97055FBA2D97A1BF1F915E120A6CD /* Pods-JalapenoTestServer_Tests-acknowledgements.plist */,
+				1E8ABCB7F8AA902E2C4B23A246CA2083 /* Pods-JalapenoTestServer_Tests-dummy.m */,
+				D466DC4EA8C70ABA77BF3CB4F1CCBBF2 /* Pods-JalapenoTestServer_Tests-frameworks.sh */,
+				0321362C48E6F42531D6E5BE36B0C112 /* Pods-JalapenoTestServer_Tests-resources.sh */,
+				1DA6E1B1687C60E2D082970D3628913D /* Pods-JalapenoTestServer_Tests-umbrella.h */,
+				9C94F27AEA45992FD7DBEC3DF31F70FE /* Pods-JalapenoTestServer_Tests.debug.xcconfig */,
+				62BDFE65AC67D55977869DDD8BB8135B /* Pods-JalapenoTestServer_Tests.release.xcconfig */,
+			);
+			name = "Pods-JalapenoTestServer_Tests";
+			path = "Target Support Files/Pods-JalapenoTestServer_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF5DEC7B11B52D13699B12F7CDAC4432 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3D741B00ED99356D067A997D52374787 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C23D0B7DE3AE3139488F97FE6FEB342D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E13566A44A33A4C2D7198C0605AD806 /* Pods-JalapenoTestServer_Example */,
+				9DF6EC728D8F9B1B8954678785C7D6AD /* Pods-JalapenoTestServer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		33A0C23FF51BD0867EA7C475A5ED162A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C1F9FA2997995B9A79C2C031FA1625A /* Pods-JalapenoTestServer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D432CC15BB4D83B87054E1605595453 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FC13A93D73B3CF1D780A6A15CDB002 /* Pods-JalapenoTestServer_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD2B7890DE1C3C27C357B34306D33BC6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E05550321C63D8720080FBEC /* PrivateUtils.h in Headers */,
+				E05550341C63D8720080FBEC /* UITestServer.h in Headers */,
+				C893BC628611C0017EABEE242C88367D /* JalapenoTestServer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4D756C430D06B57C79202479F4BA2C14 /* JalapenoTestServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F7882E2DB5D46AFE76CEE22D65F81DA /* Build configuration list for PBXNativeTarget "JalapenoTestServer" */;
+			buildPhases = (
+				0D319794B182B6E9C1DB4D02F294967F /* Sources */,
+				AC1207306CA169714650EA0911744E8E /* Frameworks */,
+				5F7FCBBEB7AE734F08D873AF486C79CC /* Resources */,
+				DD2B7890DE1C3C27C357B34306D33BC6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4438D9E847D364A67A65D874ADD65073 /* PBXTargetDependency */,
+			);
+			name = JalapenoTestServer;
+			productName = JalapenoTestServer;
+			productReference = 5249AAA9E21E4CEE4A24747BA6149558 /* JalapenoTestServer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5A711C2F47A1490BA5F799061AF715C0 /* JalapenoTestServer-JalapenoTestServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DBD016BAD51100BF1BAD964E48BC2F8 /* Build configuration list for PBXNativeTarget "JalapenoTestServer-JalapenoTestServer" */;
+			buildPhases = (
+				191601892E86E41AFC5A70E39A97AA09 /* Sources */,
+				E745AC90B2F92DAF105B1CF9E72BAB30 /* Frameworks */,
+				B0949EAF382386FE85D0EEBF8C595024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JalapenoTestServer-JalapenoTestServer";
+			productName = "JalapenoTestServer-JalapenoTestServer";
+			productReference = FC775AB7D66125BAAE7BFE90DD8B6509 /* JalapenoTestServer.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		627C4887E0CDE4E8FDE69CCCE4BBC1FF /* Pods-JalapenoTestServer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCFF65CD5E678CFF98ADB742096A4339 /* Build configuration list for PBXNativeTarget "Pods-JalapenoTestServer_Tests" */;
+			buildPhases = (
+				57DAE2C683886451759C31BC9BCE4C1E /* Sources */,
+				9BC287C7C32465A9F4FF00ED25D46D16 /* Frameworks */,
+				9D432CC15BB4D83B87054E1605595453 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EDCE84ECB72BCB59AE49F9D80D55BF9 /* PBXTargetDependency */,
+			);
+			name = "Pods-JalapenoTestServer_Tests";
+			productName = "Pods-JalapenoTestServer_Tests";
+			productReference = 85A066B7F144DC71F49AA7F02689B7FA /* Pods_JalapenoTestServer_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		64FB5D2356B006B470427A5417C9758D /* Pods-JalapenoTestServer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D0E7A5E3FA0C49FB6F5DD7B655E3D2 /* Build configuration list for PBXNativeTarget "Pods-JalapenoTestServer_Example" */;
+			buildPhases = (
+				58F6C1886C7BCFA7C0446BC7830DFF13 /* Sources */,
+				502B1284CBE7CB4801066C9C579412ED /* Frameworks */,
+				33A0C23FF51BD0867EA7C475A5ED162A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				213099D9BC7D9E3977DA3961485A7F8E /* PBXTargetDependency */,
+			);
+			name = "Pods-JalapenoTestServer_Example";
+			productName = "Pods-JalapenoTestServer_Example";
+			productReference = F0B5EE023DD6838AA6585DF9384FABC1 /* Pods_JalapenoTestServer_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 93CD804992DDBA809A381D8998C835DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D756C430D06B57C79202479F4BA2C14 /* JalapenoTestServer */,
+				5A711C2F47A1490BA5F799061AF715C0 /* JalapenoTestServer-JalapenoTestServer */,
+				64FB5D2356B006B470427A5417C9758D /* Pods-JalapenoTestServer_Example */,
+				627C4887E0CDE4E8FDE69CCCE4BBC1FF /* Pods-JalapenoTestServer_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F7FCBBEB7AE734F08D873AF486C79CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277CA96D153A0A9918BC46EF84AA45A4 /* JalapenoTestServer.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0949EAF382386FE85D0EEBF8C595024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D319794B182B6E9C1DB4D02F294967F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E05550351C63D8720080FBEC /* UITestServer.swift in Sources */,
+				2CB9ABFFD26ABC1A9B27E471430A9B4F /* JalapenoTestServer-dummy.m in Sources */,
+				E05550331C63D8720080FBEC /* PrivateUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		191601892E86E41AFC5A70E39A97AA09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57DAE2C683886451759C31BC9BCE4C1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74633568B6A8A4C8A9934B6FB44F8EC8 /* Pods-JalapenoTestServer_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58F6C1886C7BCFA7C0446BC7830DFF13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56E3704DE043546913166BA55D4F9CF4 /* Pods-JalapenoTestServer_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		213099D9BC7D9E3977DA3961485A7F8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JalapenoTestServer;
+			target = 4D756C430D06B57C79202479F4BA2C14 /* JalapenoTestServer */;
+			targetProxy = 2C54B0E1EF21A329EE44B39367F7B9ED /* PBXContainerItemProxy */;
+		};
+		4438D9E847D364A67A65D874ADD65073 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "JalapenoTestServer-JalapenoTestServer";
+			target = 5A711C2F47A1490BA5F799061AF715C0 /* JalapenoTestServer-JalapenoTestServer */;
+			targetProxy = E4E4683909C761F170BF7A4711C0AA23 /* PBXContainerItemProxy */;
+		};
+		4EDCE84ECB72BCB59AE49F9D80D55BF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JalapenoTestServer;
+			target = 4D756C430D06B57C79202479F4BA2C14 /* JalapenoTestServer */;
+			targetProxy = 4D5772495C81FAD537DCB3DF7784F1E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		110F79D225ACB93EAF67F725DE2B2C92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 351CC3614FEAB9B002A6907982A12835 /* Pods-JalapenoTestServer_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JalapenoTestServer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JalapenoTestServer_Example/Pods-JalapenoTestServer_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JalapenoTestServer_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		42B84CE4CB489F5D94E2879C6E5E9C37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC5DC6F36A71B60A749F588E456E6162 /* Pods-JalapenoTestServer_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JalapenoTestServer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JalapenoTestServer_Example/Pods-JalapenoTestServer_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JalapenoTestServer_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9565F6B6148C9103CE0AAC9ED8B54D16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62BDFE65AC67D55977869DDD8BB8135B /* Pods-JalapenoTestServer_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JalapenoTestServer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JalapenoTestServer_Tests/Pods-JalapenoTestServer_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JalapenoTestServer_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		980101BBD5D4FB79EC744455708EC011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C94F27AEA45992FD7DBEC3DF31F70FE /* Pods-JalapenoTestServer_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JalapenoTestServer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JalapenoTestServer_Tests/Pods-JalapenoTestServer_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JalapenoTestServer_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AC907C37F22F98822A2FF36920AFB12C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2DA4E439A85003788336A83A9DD547D /* JalapenoTestServer.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = JalapenoTestServer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		BDC033FBDF76494B316ACCCA35696222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2DA4E439A85003788336A83A9DD547D /* JalapenoTestServer.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JalapenoTestServer/JalapenoTestServer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JalapenoTestServer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JalapenoTestServer/JalapenoTestServer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JalapenoTestServer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D407235E9C3270F0CBB2A849A79A375F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2DA4E439A85003788336A83A9DD547D /* JalapenoTestServer.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JalapenoTestServer/JalapenoTestServer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JalapenoTestServer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JalapenoTestServer/JalapenoTestServer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JalapenoTestServer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EBFCA2B9C462612D1FF53CC3A70D857C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2DA4E439A85003788336A83A9DD547D /* JalapenoTestServer.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = JalapenoTestServer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DBD016BAD51100BF1BAD964E48BC2F8 /* Build configuration list for PBXNativeTarget "JalapenoTestServer-JalapenoTestServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBFCA2B9C462612D1FF53CC3A70D857C /* Debug */,
+				AC907C37F22F98822A2FF36920AFB12C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46D0E7A5E3FA0C49FB6F5DD7B655E3D2 /* Build configuration list for PBXNativeTarget "Pods-JalapenoTestServer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110F79D225ACB93EAF67F725DE2B2C92 /* Debug */,
+				42B84CE4CB489F5D94E2879C6E5E9C37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F7882E2DB5D46AFE76CEE22D65F81DA /* Build configuration list for PBXNativeTarget "JalapenoTestServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDC033FBDF76494B316ACCCA35696222 /* Debug */,
+				D407235E9C3270F0CBB2A849A79A375F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCFF65CD5E678CFF98ADB742096A4339 /* Build configuration list for PBXNativeTarget "Pods-JalapenoTestServer_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				980101BBD5D4FB79EC744455708EC011 /* Debug */,
+				9565F6B6148C9103CE0AAC9ED8B54D16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

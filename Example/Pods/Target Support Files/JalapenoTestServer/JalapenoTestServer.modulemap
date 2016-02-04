@@ -1,0 +1,6 @@
+framework module JalapenoTestServer {
+  umbrella header "JalapenoTestServer-umbrella.h"
+
+  export *
+  module * { export * }
+}

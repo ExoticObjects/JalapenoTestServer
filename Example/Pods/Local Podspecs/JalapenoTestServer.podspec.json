@@ -1,0 +1,25 @@
+{
+  "name": "JalapenoTestServer",
+  "version": "0.1.0",
+  "summary": "A short description of JalapenoTestServer.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/JalapenoTestServer",
+  "license": "MIT",
+  "authors": {
+    "Exotic Objects": "jim@exoticobjects.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/JalapenoTestServer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "JalapenoTestServer": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
