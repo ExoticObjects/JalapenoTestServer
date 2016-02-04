@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'BD7C4CBC5E437FE692611FBE'
-               BlueprintName = 'JalapenoTestServer'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'JalapenoTestServer.framework'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4D756C430D06B57C79202479F4BA2C14"
+               BlueprintName = "JalapenoTestServer"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "JalapenoTestServer.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
