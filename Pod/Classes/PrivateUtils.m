@@ -102,6 +102,7 @@ UIImage *_UICreateScreenUIImage();
     [[NSNotificationCenter defaultCenter] addObserverForName:@"jalapenoAddWatchedPath" object:nil queue:nil usingBlock:^(NSNotification * note) {
 
         NSLog(@"Adding watched path in %s, path: %@", __PRETTY_FUNCTION__, note.userInfo[@"jalapenoWatchedPath"]);
+        [self setWatchedProjectPath:note.userInfo[@"jalapenoWatchedPath"]];
     }];
 }
 
