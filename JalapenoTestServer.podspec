@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
   s.name             = "JalapenoTestServer"
   s.module_name      = "JalapenoTestServer"
-  s.version          = "0.1.7"
+  s.version          = "0.1.8"
   s.summary          = "Some kind of description." 
   s.description      = "A meaningless description"
   s.homepage         = "https://github.com/ExoticObjects/JalapenoTestServer"
