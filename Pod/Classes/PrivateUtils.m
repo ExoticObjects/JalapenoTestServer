@@ -27,7 +27,7 @@ static NSMutableArray * watchedPath;
 
 @implementation PrivateUtils
 
-+ (BOOL)debug {
++ (BOOL)debug { //This is first thing called from UITestServer, so use it as an init
     #ifdef DEBUG
         return YES;
     #else
@@ -96,5 +96,14 @@ UIImage *_UICreateScreenUIImage();
 
     return image;
 }
+
++ (void)registerWatchedPathsListener {
+
+    [[NSNotificationCenter defaultCenter] addObserverForName:@"jalapenoAddWatchedPath" object:nil queue:nil usingBlock:^(NSNotification * note) {
+
+        NSLog(@"Adding watched path in %s, path: %@", __PRETTY_FUNCTION__, note.userInfo[@"jalapenoWatchedPath"]);
+    }];
+}
+
 
 @end

@@ -36,4 +36,6 @@
 + (void)setWatchedProjectPath:(NSMutableArray *)path;
 + (NSMutableArray *)watchedProjectPath;
 
++ (void)registerWatchedPathsListener;
+
 @end
