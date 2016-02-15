@@ -1,3 +1,8 @@
+# To package with cocoapods-packager, cd to podspec dir then use this command:
+# pod package JalapenoTestServer.podspec --spec-sources='https://github.com/ExoticObjects/eo-attributed-markdown-podspec.git','https://github.com/ExoticObjects/JalapenoTestServer.git','https://github.com/ExoticObjects/fmdb.git','https://github.com/ExoticObjects/JalapenoSocketIOClient.git','https://github.com/CocoaPods/Specs.git' --embedded --force
+#
+# To lint:
+# pod spec lint --verbose --allow-warnings --sources='https://github.com/ExoticObjects/eo-attributed-markdown-podspec.git','https://github.com/ExoticObjects/JalapenoTestServer.git','https://github.com/ExoticObjects/fmdb.git','https://github.com/ExoticObjects/JalapenoSocketIOClient.git','https://github.com/CocoaPods/Specs.git'
 
 Pod::Spec.new do |s|
   s.name             = "JalapenoTestServer"
